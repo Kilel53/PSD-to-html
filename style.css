@@ -1,0 +1,194 @@
+header {
+  background-color: #352d2f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+  font-family: Economica, sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 70px;
+  height: 70px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-start;
+  margin-right: 180px;
+  margin-left: 300px;
+}
+
+.caps {
+  display: flex;
+  justify-content: center;
+  font-family: Economica, sans-serif;
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Economica, sans-serif;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: Economica, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  width: 200px;
+  height: 40px;
+  margin-left: 450px;
+}
+
+.top_section {
+  display: inline-flex;
+
+  width: 1208px;
+}
+
+.icons {
+  display: flex;
+  color: white;
+  width: 290px;
+  justify-content: flex-end;
+}
+
+i {
+  margin-left: 10px;
+}
+
+.third-section {
+  display: grid;
+  height: 500px;
+  grid-template-columns: 50% auto;
+}
+
+.highlighted-projects {
+  display: grid;
+}
+
+.white-area {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  background-color: whitesmoke;
+}
+
+.colored-boxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 200px;
+}
+
+.light-grey-area {
+  display: grid;
+
+  background-color: #605a5c;
+}
+
+.dark-grey-area {
+  display: grid;
+
+  background-color: #352d2f;
+}
+
+.light-grey-area-2 {
+  display: grid;
+
+  background-color: #605a5c;
+}
+
+.white-area-2 {
+  display: grid;
+  width: auto;
+  background-color: whitesmoke;
+}
+
+.p3 {
+  display: grid;
+  color: black;
+  size: 10px;
+  padding-left: 15%;
+}
+
+.head-2 {
+  color: black;
+  font-family: Economica, sans-serif;
+  display: grid;
+  justify-self: center;
+}
+
+.button-2 {
+  background-color: #f63c3c;
+  display: grid;
+  margin-right: 0%;
+  margin-left: 40%;
+  margin-top: 20px;
+  border-style: none;
+}
+
+.p2 {
+  display: grid;
+  color: black;
+  margin-left: 90px;
+  size: 10px;
+  justify-self: end;
+}
+
+.infinity-spaces {
+  background-color: #f63c3c;
+  display: grid;
+  align-content: end;
+}
+
+h3 {
+  display: grid;
+  color: white;
+  opacity: 50%;
+  font-family: Economica, sans-serif;
+  margin-left: 12.5%;
+  justify-self: start;
+}
+
+.p4 {
+  display: grid;
+  color: white;
+  font-family: Economica, sans-serif;
+  opacity: 50%;
+  justify-self: start;
+  padding-right: 30%;
+  margin-left: 12.5%;
+}
+
+.head {
+  display: grid;
+  color: white;
+  font-family: Economica, sans-serif;
+  margin-left: 12.5%;
+  justify-self: start;
+}
+
+.fourth-section {
+  display: grid;
+  grid-template-columns: 50% auto;
+  height: 450px;
+}
