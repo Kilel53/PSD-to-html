@@ -191,4 +191,27 @@ h3 {
   display: grid;
   grid-template-columns: 50% auto;
   height: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-history {
+  display: grid;
+  font-family: Economica, sans-serif;
+  color: black;
+}
+
+.history {
+  display: grid;
+  font-family: Economica, sans-serif;
+  color: black;
+  width: 65%;
+  justify-items: center;
+}
+
+.history-2 {
+  display: grid;
+  width: 65%;
+  color: black;
+  font-family: Economica, sans-serif;
 }
