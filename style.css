@@ -190,7 +190,7 @@ h3 {
 .fourth-section {
   display: grid;
   grid-template-columns: 50% auto;
-  height: 450px;
+  height: 700px;
   align-items: center;
   justify-content: center;
 }
@@ -214,4 +214,18 @@ h3 {
   width: 65%;
   color: black;
   font-family: Economica, sans-serif;
+}
+
+.button-history {
+  display: grid;
+  background-color: #f63c3c;
+  font-family: Economica, sans-serif;
+  margin-left: -16%;
+}
+
+.sage {
+  display: grid;
+  justify-content: center;
+  align-content: end;
+  padding-top: 40%;
 }
