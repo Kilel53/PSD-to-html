@@ -229,3 +229,58 @@ h3 {
   align-content: end;
   padding-top: 40%;
 }
+
+.bottom-sec {
+  width: auto;
+  box-sizing: border-box;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: 10%;
+}
+
+.par {
+  color: black;
+  opacity: 70%;
+  font-family: Economica, sans-serif;
+  display: grid;
+
+  width: auto;
+}
+
+.number {
+  font-family: Economica, sans-serif;
+  color: #f63c3c;
+  font-style: normal;
+  font-weight: bold;
+  font-size: -webkit-xxx-large;
+}
+
+.projects {
+  display: grid;
+}
+
+.img-a {
+  display: grid;
+  justify-self: center;
+}
+
+.screens {
+  display: grid;
+}
+
+.img-b {
+  display: grid;
+  justify-self: center;
+}
+
+.emails {
+  display: grid;
+}
+
+.img-c {
+  display: grid;
+  justify-self: center;
+}
