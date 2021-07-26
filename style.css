@@ -284,3 +284,28 @@ h3 {
   display: grid;
   justify-self: center;
 }
+
+.services {
+  display: grid;
+}
+
+.services-head {
+  display: grid;
+  align-self: start;
+  font-family: Economica, sans-serif;
+  font-size: 60px;
+  margin-bottom: 3%;
+}
+
+.services-sub-secs {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.par-services {
+  font-family: Economica, sans-serif;
+  color: black;
+  display: grid;
+  width: 20%;
+}
