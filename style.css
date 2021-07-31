@@ -360,3 +360,22 @@ h3 {
   justify-self: end;
   align-self: flex-start;
 }
+
+.call-to-action-area {
+  background-color: #352d2f;
+  height: 30%;
+  width: auto;
+}
+
+.ctaa {
+  display: grid;
+  margin-left: 0%;
+  font-size: x-large;
+  justify-content: center;
+}
+
+.par-ctaa {
+  display: grid;
+  font-family: Economica, sans-serif;
+  font-size: 12px;
+}
