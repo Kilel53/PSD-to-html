@@ -379,3 +379,73 @@ h3 {
   font-family: Economica, sans-serif;
   font-size: 12px;
 }
+
+.journal {
+  display: grid;
+}
+
+.header-journal {
+  display: grid;
+  align-self: start;
+  justify-self: start;
+  font-family: Economica, sans-serif;
+  color: black;
+  font-size: 390%;
+}
+
+.pre-head {
+  display: grid;
+  justify-self: center;
+  font-family: Economica, sans-serif;
+  color: #f63c3c;
+  font-weight: bolder;
+}
+
+.head-journal {
+  display: grid;
+  justify-self: start;
+  font-family: Economica, sans-serif;
+  color: black;
+  font-size: 150%;
+}
+
+.par-journal {
+  display: grid;
+  justify-self: center;
+  font-family: Economica, sans-serif;
+  color: black;
+}
+
+.part-1 {
+  display: grid;
+  align-self: start;
+  width: 15%;
+  justify-self: start;
+}
+
+.part-2 {
+  display: grid;
+  align-self: start;
+  justify-self: center;
+  width: 15%;
+  margin-left: 1%;
+}
+
+.part-3 {
+  display: grid;
+  align-self: start;
+  justify-self: end;
+  width: 15%;
+  margin-left: 1%;
+}
+
+.sub-secs-journal {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.blank {
+  color: #352d2f;
+  height: 30%;
+  display: grid;
+}
