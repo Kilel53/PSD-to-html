@@ -449,3 +449,15 @@ h3 {
   height: 30%;
   display: grid;
 }
+
+.button-for-journal {
+  display: grid;
+  font-size: 15px;
+  align-content: center;
+  margin-left: 0%;
+  border-color: #605a5c;
+  background-color: white;
+  align-self: end;
+  width: 100px;
+  justify-self: center;
+}
