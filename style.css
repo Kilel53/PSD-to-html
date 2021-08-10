@@ -391,6 +391,7 @@ h3 {
   font-family: Economica, sans-serif;
   color: black;
   font-size: 390%;
+  margin-left: 12%;
 }
 
 .pre-head {
@@ -419,45 +420,77 @@ h3 {
 .part-1 {
   display: grid;
   align-self: start;
-  width: 15%;
+  width: 20%;
   justify-self: start;
+  height: 340px;
 }
 
 .part-2 {
   display: grid;
   align-self: start;
   justify-self: center;
-  width: 15%;
-  margin-left: 1%;
+  width: 20%;
+  margin-left: 3%;
+  height: 340px;
 }
 
 .part-3 {
   display: grid;
   align-self: start;
   justify-self: end;
-  width: 15%;
-  margin-left: 1%;
+  width: 20%;
+  margin-left: 3%;
+  height: 340px;
 }
 
 .sub-secs-journal {
   display: inline-flex;
   justify-content: center;
+  margin-top: 40px;
+  height: 580px;
 }
 
 .blank {
-  color: #352d2f;
-  height: 30%;
+  background-color: #352d2f;
+  height: 180px;
+  width: auto;
   display: grid;
 }
 
 .button-for-journal {
   display: grid;
   font-size: 15px;
-  align-content: center;
+
   margin-left: 0%;
   border-color: #605a5c;
   background-color: white;
-  align-self: end;
+
   width: 100px;
+  justify-self: center;
+}
+
+.last-section {
+  width: auto;
+  display: grid;
+  align-self: end;
+}
+
+.more-articles {
+  align-content: center;
+  display: flex;
+  align-self: flex-end;
+  justify-self: center;
+  border-style: none;
+  margin-left: 0%;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: white;
+}
+
+.verticle-line {
+  width: 150px;
+  background-color: #352d2f;
+  height: 3px;
+  display: grid;
   justify-self: center;
 }
