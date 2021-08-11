@@ -460,12 +460,12 @@ h3 {
 .button-for-journal {
   display: grid;
   font-size: 15px;
-
+  align-self: end;
   margin-left: 0%;
   border-color: #605a5c;
   background-color: white;
-
-  width: 100px;
+  align-content: center;
+  width: 150px;
   justify-self: center;
 }
 
@@ -499,6 +499,7 @@ h3 {
   display: grid;
   background-color: #352d2f;
   height: 600px;
+  margin-top: 20px;
 }
 
 .theme-quality {
