@@ -592,3 +592,53 @@ h3 {
   flex-direction: row;
   justify-content: center;
 }
+
+.stay-connected {
+  display: grid;
+  grid-template-columns: 50%, auto;
+}
+
+.left-box {
+  display: grid;
+  font-family: Economica, sans-serif;
+  font-size: 40px;
+  color: #605a5c;
+  margin-left: 30%;
+}
+
+.paragraph-before-email {
+  display: grid;
+  color: black;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  width: max-content;
+  margin-left: 30%;
+  opacity: 60%;
+}
+
+.email {
+  width: 50%;
+  display: grid;
+  height: ;
+  align-content: center;
+  height: 400px;
+}
+
+::placeholder {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.sign-up-button {
+  background-color: #f63c3c;
+  font-family: Economica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  border-style: none;
+}
+
+.field {
+  margin-top: 10px;
+  padding: 0%;
+  margin-left: 30%;
+}
