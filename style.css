@@ -620,7 +620,7 @@ h3 {
 .email {
   width: 50%;
   display: grid;
-  height: ;
+
   align-content: center;
   height: 400px;
 }
@@ -641,4 +641,47 @@ h3 {
   margin-top: 10px;
   padding: 0%;
   margin-left: 30%;
+}
+
+.other-platforms {
+  display: grid;
+  width: 50%;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+}
+
+.facebook {
+  display: flex;
+  background-color: #605a5c;
+  width: 50%;
+  flex-direction: row;
+}
+
+#facebook-icon {
+  color: white;
+  display: grid;
+  align-self: center;
+}
+
+.facebook-header {
+  display: grid;
+  font-family: Economica, sans-serif;
+  color: white;
+  font-size: 40px;
+  align-self: center;
+  justify-self: center;
+}
+
+.facebook-statement {
+  display: grid;
+  align-self: center;
+}
+
+.beside-the-icon {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
 }
