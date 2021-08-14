@@ -594,8 +594,9 @@ h3 {
 }
 
 .stay-connected {
-  display: grid;
-  grid-template-columns: 50%, auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2%;
 }
 
 .left-box {
@@ -620,9 +621,8 @@ h3 {
 .email {
   width: 50%;
   display: grid;
-
   align-content: center;
-  height: 400px;
+  height: 300px;
 }
 
 ::placeholder {
@@ -658,30 +658,65 @@ h3 {
   background-color: #605a5c;
   width: 50%;
   flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
-#facebook-icon {
+#icon {
   color: white;
   display: grid;
   align-self: center;
+  font-size: 50px;
+  height: 60px;
 }
 
-.facebook-header {
+.major-header {
   display: grid;
   font-family: Economica, sans-serif;
   color: white;
   font-size: 40px;
   align-self: center;
   justify-self: center;
+  width: max-content;
+  height: max-content;
+  margin: 0%;
 }
 
-.facebook-statement {
+.all-statement {
   display: grid;
   align-self: center;
+  width: max-content;
+  height: max-content;
+  margin: 0%;
+  opacity: 50%;
 }
 
 .beside-the-icon {
   display: flex;
   justify-self: center;
   flex-direction: column;
+  align-content: center;
+}
+
+.twitter {
+  display: grid;
+  width: 50%;
+  background-color: #352d2f;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+}
+
+.google {
+  display: grid;
+  background-color: #352d2f;
+  width: 50%;
+}
+
+.pinterest {
+  display: grid;
+  background-color: #605a5c;
+  width: 50%;
 }
