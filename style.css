@@ -674,7 +674,7 @@ h3 {
   display: grid;
   font-family: Economica, sans-serif;
   color: white;
-  font-size: 40px;
+
   align-self: center;
   justify-self: center;
   width: max-content;
@@ -696,12 +696,17 @@ h3 {
   justify-self: center;
   flex-direction: column;
   align-content: center;
+  margin-top: 13%;
+  margin-left: 10%;
 }
 
 .twitter {
-  display: grid;
+  display: flex;
   width: 50%;
   background-color: #352d2f;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
 .down {
@@ -710,13 +715,39 @@ h3 {
 }
 
 .google {
-  display: grid;
+  display: flex;
   background-color: #352d2f;
   width: 50%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
 .pinterest {
-  display: grid;
+  display: flex;
   background-color: #605a5c;
   width: 50%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.terms-of-use {
+  font-family: "Gothic Nanum", sans-serif;
+  color: black;
+  opacity: 40%;
+  white-space: normal;
+}
+
+.year {
+  font-family: "Gothic Nanum", sans-serif;
+  color: black;
+  opacity: 40%;
 }
